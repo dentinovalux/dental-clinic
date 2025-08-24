@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://dentinovalux.github.io/dental-clinic/</loc>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://dentinovalux.github.io/dental-clinic/home</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://dentinovalux.github.io/dental-clinic/about</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://dentinovalux.github.io/dental-clinic/services</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://dentinovalux.github.io/dental-clinic/contact</loc>
+        <priority>0.8</priority>
+    </url>
+
+</urlset>
