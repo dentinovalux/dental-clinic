@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dentinovalux.github.io/dental-clinic/sitemap.xml
