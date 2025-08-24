@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://dentinovalux.github.io/dental-clinic/</loc>
+        <loc>https://dentinovalux.github.io/dental-clinic/#/</loc>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc>https://dentinovalux.github.io/dental-clinic/home</loc>
+        <loc>https://dentinovalux.github.io/dental-clinic/#/home</loc>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://dentinovalux.github.io/dental-clinic/about</loc>
+        <loc>https://dentinovalux.github.io/dental-clinic/#/about</loc>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://dentinovalux.github.io/dental-clinic/services</loc>
+        <loc>https://dentinovalux.github.io/dental-clinic/#/services</loc>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://dentinovalux.github.io/dental-clinic/contact</loc>
+        <loc>https://dentinovalux.github.io/dental-clinic/#/contact</loc>
         <priority>0.8</priority>
     </url>
 
