@@ -7,11 +7,6 @@
     </url>
 
     <url>
-        <loc>https://dentinovalux.github.io/dental-clinic/home</loc>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
         <loc>https://dentinovalux.github.io/dental-clinic/about</loc>
         <priority>0.8</priority>
     </url>
