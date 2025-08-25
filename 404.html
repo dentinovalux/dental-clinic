@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" content="0; url=/dental-clinic/" />
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script type="text/javascript">
+    if (path === '/dental-clinic/sitemap.xml') {
+      // do nothing, serve the XML directly
+    } else {
+      // Redirect to index.html with original path preserved
+      var redirectTo = window.location.protocol + '//' + window.location.host + '/dental-clinic/index.html?redirect=' + window.location.pathname + window.location.search + window.location.hash;
+      window.location.replace(redirectTo);
+    }
+  </script>
 </head>
 <body>
-<p>Redirecting...</p>
-<script>
-  var redirectTo = window.location.pathname.replace("/dental-clinic", "");
-  window.location.href = "/dental-clinic/?" + redirectTo;
-</script>
+Redirecting...
 </body>
 </html>
