@@ -4,9 +4,28 @@
   <meta charset="utf-8">
   <title>Redirecting...</title>
   <script type="text/javascript">
-    // Redirect to index.html with original path preserved
-    var redirectTo = window.location.protocol + '//' + window.location.host + '/dental-clinic/index.html?redirect=' + window.location.pathname + window.location.search + window.location.hash;
-    window.location.replace(redirectTo);
+    (function() {
+      var base = "/dental-clinic"; // adjust if you deploy under another subpath
+      var path = window.location.pathname;
+
+      // remove base path from pathname
+      if (path.startsWith(base)) {
+        path = path.slice(base.length);
+      }
+
+      // don't redirect if already on index.html
+      if (!window.location.pathname.endsWith("index.html")) {
+        var redirectTo =
+          window.location.protocol + "//" +
+          window.location.host +
+          base + "/index.html?redirect=" +
+          path +
+          window.location.search +
+          window.location.hash;
+
+        window.location.replace(redirectTo);
+      }
+    })();
   </script>
 </head>
 <body>
